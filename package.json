@@ -1,8 +1,8 @@
 {
   "name": "vite_react_shadcn_ts",
+  "homepage": "https://MohdSabiha.github.io/Devzen_website/",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://MohdSabiha.github.io/Devzen_website",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy":" gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
