@@ -24,7 +24,7 @@ export const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["Devzen Software, NH 216,", " Seetharamapuram, Andhra Pradesh 534275.", "India"]
+      details: ["Devzen Software, NH 216,", " Narsapuram, Andhra Pradesh 534275.", "India"]
     },
     {
       icon: Phone,

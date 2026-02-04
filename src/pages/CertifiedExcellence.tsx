@@ -5,7 +5,7 @@ import { Award, BadgeCheck } from "lucide-react";
 
 const teamMembers = [
   { name: "Philip Nethala", certification: ["SAP Integration Suite Certified", "SAP BTP Certified Consultant"],specialty: "Lead Consultant", image: "Philip.jpg" },
-  { name: "Surya Ardhani", certification: ["SAP Integration Suite Certified", "SAP Enterprise Architect Certified"], specialty: "Lead Consultant", image: "suryaa.jpeg" },
+  { name: "Surya Ardhani", certification: ["SAP Integration Suite Certified", "SAP Enterprise Architect Certified"], specialty: "Lead Consultant", image: "suryaa.PNG" },
   { name: "Sabiha Sultana", certification: ["SAP Integration Suite Certified", "SAP Generative AI Certified"], specialty: "Lead Consultant", image: "Sabiha.jpg" },
   { name: "Purna Pavan Aduri", certification: ["SAP Integration Suite Certified", "SAP BTP Integration Suite Certified"], specialty: "Lead Consultant", image: "Pavan.png" },
   { name: "Srikanth Mule", certification: ["SAP Integration Suite Certified", "SAP S/4 HANA Cloud Private Edition  Consultant"], specialty: "Lead Consultant", image: "srikanth.png" },
