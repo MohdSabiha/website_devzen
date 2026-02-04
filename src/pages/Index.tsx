@@ -31,9 +31,9 @@ const Index = () => {
    </Link>
   </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="/" className="text-sm text-white hover:text-blue-500 transition-colors">Home</a>
+            <Link to="/" className="text-sm text-white hover:text-blue-500 transition-colors">Home</Link>
             <a href="#about" className="text-sm text-white hover:text-blue-500 transition-colors">About Us</a>
-            <a href="/Services" className="text-sm text-white hover:text-blue-500 transition-colors">Services</a>
+            <Link to="/services" className="text-sm text-white hover:text-blue-500 transition-colors">Services</Link>
             <a href="#careers" className="text-sm text-white hover:text-blue-500 transition-colors">Careers</a>
           </div>
            <a href="#contact" className="px-4 py-2 rounded-lg text-sm font-medium text-white bg-primary hover:opacity-90 transition-opacity">

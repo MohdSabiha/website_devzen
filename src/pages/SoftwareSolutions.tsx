@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Link } from "react-router-dom";
 import { Code, Database, Cloud, Smartphone, Shield, Zap, CheckCircle, ArrowRight, ExternalLink } from "lucide-react";
 
 const solutions = [
@@ -96,12 +97,12 @@ const SoftwareSolutions = () => {
             >
               Start Your Project <ArrowRight className="w-5 h-5" />
             </a>
-            <a 
-              href="/portfolio"
+            <Link 
+              to="/portfolio"
               className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-xl hover:bg-slate-700 transition-colors border border-slate-700"
             >
               View Portfolio
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>
