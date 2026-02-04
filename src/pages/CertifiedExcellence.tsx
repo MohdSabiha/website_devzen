@@ -16,13 +16,12 @@ const teamMembers = [
   { name: "Prem Raamana", certification: ["SAP Integration Suite Certified", "SAP Solution Transformation Consultant with SAP Cloud ALM"], specialty: "Consultant", image: "Prem.png" },
   { name: "Narendra Raju", certification: ["SAP Integration Suite Certified", "SAP Production Planning and Manufacturing Certified"], specialty: "Consultant", image: "Raju.png" },
   { name: "Susmitha Devi Pindi", certification: ["SAP Integration Suite Certified", "SAP Solution Manager Certified"], specialty: "Business Analyst", image: "Susmitha.png" },
-  { name: "Navya Sri Posina ", certification: ["SAP Integration Suite Certified", "SAP S/4HANA Cloud Private Edition, Sourcing and Procurement Certified"], specialty: "Consultant", image: "Navya.png" },
+  { name: "Navya Sri Posina ", certification: ["SAP Integration Suite Certified", "SAP S/4HANA Cloud Private Edition, Sourcing and Procurement Certified"], specialty: "Associate Consultant", image: "Navya.png" },
   { name: "Anubabu Lakku", certification: ["SAP Integration Suite Certified", "SAP Financial Accounting Certified"], specialty: "Consultant", image: "Anubabu.png" },
   { name: "Venkatesh Mudadla", certification: ["SAP Integration Suite Certified", "SAP Integration Developer Certified"], specialty: "Consultant", image: "VenkateshM.png"},
   { name: "Bhargav Lakkireddy", certification: ["SAP Integration Suite Certified", "SAP Business Transformation Certified"], specialty: "Consultant", image: "Bhargav.png" },
   { name: "Hemalatha Aduri", certification: ["SAP Integration Suite Certified", "SAP S/4HANA Cloud Private Edition, Production Planning and Manufacturing Certified"], specialty: "Associate Consultant", image: "Hema.png" },
   { name: "Siva Bhaskar", certification: ["SAP Integration Suite Certified", "SAP SuccessFactors Employee Central Core Certified"], specialty: "Consultant", image: "Siva.png" },
-  { name: "Navya Sri Posina ", certification: ["SAP Integration Suite Certified", "SAP S/4HANA Cloud Private Edition, Sourcing and Procurement Certified"], specialty: "Associate Consultant", image: "Navya.png" },
   { name: "PadmaSena Reddy", certification: ["SAP Integration Suite Certified", "SAP SuccessFactors Compensation Certified"], specialty: "Consultant", image: "Senani.png" },
   { name: "Venkatesh Boddu", certification: ["SAP Integration Suite Certified", "SAP Business Network for Supply Chain Consultant"], specialty: "Consultant", image: "VenkateshB.png" },
   { name: "Mounika Kavali", certification: ["SAP Integration Suite Certified", "SAP S/4HANA Sourcing Certified"], specialty: "Software Analyst", image: "Mounika.jfif" },
@@ -60,7 +59,7 @@ const CertifiedExcellence = () => {
       {/* Team Grid */}
       <section className="py-16 px-4 ">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
             {teamMembers.map((member, index) => (
               <motion.div
                 key={member.name}
