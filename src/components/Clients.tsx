@@ -10,13 +10,13 @@ export const Clients = () => {
 
     <div className="marquee">
       <div className="marquee-track">
-      <img src="/blistex.jpg" alt="Blistex" />
-      <img src="/jw.jpg" alt="JW" />
-      <img src="/sellmark.jpg" alt="Sellmark" />
-      <img src="/vs.png" alt="VS" />
-      <img src="/ets.png" alt="VS" />
+      <img src="blistex.jpg" alt="Blistex" />
+      <img src="jw.jpg" alt="JW" />
+      <img src="sellmark.jpg" alt="Sellmark" />
+      <img src="vs.png" alt="VS" />
+      <img src="ets.png" alt="ETS" />
       {/* <img src="/terumo.png" alt="VS" /> */}
-      <img src="/ps.png" alt="VS" />
+      <img src="ps.png" alt="PS" />
       {/* <img src="/terumo.png" alt="VS" /> */}
       </div>
     </div>

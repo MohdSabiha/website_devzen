@@ -90,48 +90,56 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Services Grid */}
-      <section className="py-20 px-4 bg-slate-900/50">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-8">
-            {services.map((service, index) => (
-              <motion.div
-                key={service.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                onClick={() => navigate(service.link)}
-                className="group relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 cursor-pointer hover:border-blue-500/50 hover:bg-slate-800/80 transition-all duration-300"
-              >
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    <service.icon className="w-8 h-8 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
-                      {service.title}
-                    </h3>
-                    <p className="text-slate-400 mb-6 leading-relaxed">
-                      {service.description}
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      {service.features.map((feature) => (
-                        <span
-                          key={feature}
-                          className="px-3 py-1 bg-slate-700/50 text-slate-300 text-sm rounded-full"
-                        >
-                          {feature}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
+   {/* Services Grid */}
+<section className="py-16 px-4 bg-slate-900/50">
+  <div className="container mx-auto max-w-6xl">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {services.map((service, index) => (
+        <motion.div
+          key={service.title}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+          viewport={{ once: true }}
+          onClick={() => navigate(service.link)}
+          className="group relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 md:p-8 cursor-pointer hover:border-blue-500/50 hover:bg-slate-800/80 transition-all duration-300"
+        >
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+            
+            {/* Icon */}
+            <div className="w-14 h-14 md:w-16 md:h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <service.icon className="w-7 h-7 md:w-8 md:h-8 text-white" />
+            </div>
+
+            {/* Content */}
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3 group-hover:text-blue-400 transition-colors">
+                {service.title}
+              </h3>
+
+              <p className="text-slate-400 mb-4 md:mb-6 text-sm md:text-base leading-relaxed">
+                {service.description}
+              </p>
+
+              <div className="flex flex-wrap justify-center md:justify-start gap-2">
+                {service.features.map((feature) => (
+                  <span
+                    key={feature}
+                    className="px-3 py-1 bg-slate-700/50 text-slate-300 text-xs md:text-sm rounded-full"
+                  >
+                    {feature}
+                  </span>
+                ))}
+              </div>
+            </div>
+
           </div>
-        </div>
-      </section>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-cyan-600">

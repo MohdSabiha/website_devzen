@@ -15,7 +15,7 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
             <Link to="/">
               <img
-                src="/devzennn.png"
+                src="devzennn.png"
                 alt="DevZen"
                 className="h-10 w-auto object-contain"
               />

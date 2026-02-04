@@ -70,7 +70,7 @@ export const Careers = () => {
         >
        <div className="flex justify-center items-center">
   <img
-    src="/teamlogo.jpg"
+    src="teamlogo.jpg"
     alt="Our collaborative team working together"
     className="w-full h-64 md:h-80 lg:h-96 object-cover"
   />
