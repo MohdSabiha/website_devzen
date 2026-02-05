@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 
 const consultingServices = [
+  
   {
     icon: Target,
     title: "Digital Strategy",

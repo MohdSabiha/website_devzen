@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Zap, Workflow, Puzzle, Clock, Gauge, Layers, ArrowRight, CheckCircle } from "lucide-react";
 
 const LightningFastIntegration = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const integrationFeatures = [
     {
       icon: Puzzle,

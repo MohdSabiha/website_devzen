@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Award, BadgeCheck } from "lucide-react";
@@ -12,7 +13,7 @@ const teamMembers = [
   { name: "Akshitha Jampana", certification: ["SAP Integration Suite Certified", "SAP EWM Certified Consultant"], specialty: "Associate Consultant", image: "Akshitha.JPG" },
   { name: "Deva Nandini", certification: ["SAP Integration Suite Certified", "SAP Commerce Cloud Certified"], specialty: "PMO", image: "Nandini.jpg" },
   { name: "Sai Manikanta Yadlapalli", certification: ["SAP Integration Suite Certified", "SAP S/4 HANA Portofolio and Project management Certified"], specialty: "Consultant", image: "SaiManikanta.png" },
-  { name: "Phani Suddhapalli", certification: ["SAP Integration Suite Certified", "SAP IBP Certified Consultant"], specialty: "Consultant", image: "Phani.png" },
+  { name: "Phani Suddapalli", certification: ["SAP Integration Suite Certified", "SAP IBP Certified Consultant"], specialty: "Consultant", image: "Phani.png" },
   { name: "Prem Raamana", certification: ["SAP Integration Suite Certified", "SAP Solution Transformation Consultant with SAP Cloud ALM"], specialty: "Consultant", image: "Prem.png" },
   { name: "Narendra Raju", certification: ["SAP Integration Suite Certified", "SAP Production Planning and Manufacturing Certified"], specialty: "Consultant", image: "Raju.png" },
   { name: "Susmitha Devi Pindi", certification: ["SAP Integration Suite Certified", "SAP Solution Manager Certified"], specialty: "Business Analyst", image: "Susmitha.png" },
@@ -29,6 +30,9 @@ const teamMembers = [
 ];
 
 const CertifiedExcellence = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <main className="min-h-screen bg-muted">
       <Header />

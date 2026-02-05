@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import {
@@ -13,6 +14,9 @@ import {
 } from "lucide-react";
 
 const ExpertSupport = () => {
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   /* ---------------- SUPPORT FEATURES ---------------- */
   const supportFeatures = [
     {

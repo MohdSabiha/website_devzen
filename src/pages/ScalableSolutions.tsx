@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TrendingUp, Server, Cloud, BarChart3, Layers, Cpu, Database, GitBranch, CheckCircle } from "lucide-react";
 
 const ScalableSolutions = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const scalabilityFeatures = [
     {
       icon: Cloud,

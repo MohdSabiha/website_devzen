@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const portfolio = [
   {
     title: "E-Commerce Platform",
@@ -70,6 +71,9 @@ const portfolio = [
 ];
 const categories = ["All", "Enterprise Application", "Custom Software", "Mobile Application", "Legacy Modernization", "Cloud Solution", "Web Application"];
 const Portfolio = () => {
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Header />
