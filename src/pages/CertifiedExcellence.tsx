@@ -9,7 +9,7 @@ const teamMembers = [
   { name: "Surya Ardhani", certification: ["SAP Integration Suite Certified", "SAP Enterprise Architect Certified"], specialty: "Lead Consultant", image: "suryaa.PNG" },
   { name: "Sabiha Sultana", certification: ["SAP Integration Suite Certified", "SAP Generative AI Certified"], specialty: "Lead Consultant", image: "Sabiha.jpg" },
   { name: "Purna Pavan Aduri", certification: ["SAP Integration Suite Certified", "SAP BTP Integration Suite Certified"], specialty: "Lead Consultant", image: "Pavan.png" },
-  { name: "Srikanth Mule", certification: ["SAP Integration Suite Certified", "SAP S/4 HANA Cloud Private Edition  Consultant"], specialty: "Lead Consultant", image: "srikanth.png" },
+  { name: "Srikanth Mule", certification: ["SAP Integration Suite Certified", "SAP S/4 HANA Cloud Private Edition  Consultant"], specialty: "Lead Consultant", image: "srikanth.jfif" },
   { name: "Akshitha Jampana", certification: ["SAP Integration Suite Certified", "SAP EWM Certified Consultant"], specialty: "Associate Consultant", image: "Akshitha.JPG" },
   { name: "Deva Nandini", certification: ["SAP Integration Suite Certified", "SAP Commerce Cloud Certified"], specialty: "PMO", image: "Nandini.jpg" },
   { name: "Sai Manikanta Yadlapalli", certification: ["SAP Integration Suite Certified", "SAP S/4 HANA Portofolio and Project management Certified"], specialty: "Consultant", image: "SaiManikanta.png" },
