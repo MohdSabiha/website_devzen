@@ -65,7 +65,7 @@ const benefits = [
 const Consulting = () => {
   // 👉 Mail handler for CTA
   const handleMail = () => {
-    const mail = `mailto:devzensoftware@gmail.com?subject=${encodeURIComponent(
+    const mail = `mailto:info@devzenenterprises.com?subject=${encodeURIComponent(
       "Consultation Request"
     )}&body=${encodeURIComponent(
       `Hello DevZen Team,

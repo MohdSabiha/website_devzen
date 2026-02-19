@@ -96,7 +96,7 @@ const SoftwareSolutions = () => {
             className="flex justify-center gap-4 flex-wrap"
           >
             <a 
-              href="mailto:sabiha.devzen@gmail.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new software project.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: %0D%0A- Timeline: %0D%0A- Budget Range: %0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
+              href="mailto:info@devzenenterprises.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new software project.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: %0D%0A- Timeline: %0D%0A- Budget Range: %0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
               className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-xl hover:opacity-90 transition-opacity flex items-center gap-2"
             >
               Start Your Project <ArrowRight className="w-5 h-5" />
@@ -254,7 +254,7 @@ const SoftwareSolutions = () => {
               Let's discuss your project requirements and create something extraordinary together.
             </p>
             <a 
-              href="mailto:sabiha.devzen@gmail.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new software project.%0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
+              href="mailto:info@devzenenterprises.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new software project.%0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
               className="px-8 py-4 bg-white text-emerald-600 font-semibold rounded-xl hover:bg-slate-100 transition-colors inline-block"
             >
               Start Your Project

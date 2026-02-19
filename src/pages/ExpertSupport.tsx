@@ -72,7 +72,7 @@ const ExpertSupport = () => {
   };
 
   const handleMailClick = () => {
-    window.location.href = "mailto:devzensoftware@gmail.com";
+    window.location.href = "mailto:info@devzenenterprises.com";
   };
 
   return (
@@ -164,7 +164,7 @@ const ExpertSupport = () => {
               {
                 icon: Mail,
                 label: "Email Support",
-                value: "devzensoftware@gmail.com",
+                value: "info@devzenenterprises.com",
                 onClick: handleMailClick
               }
             ].map((contact, index) => (

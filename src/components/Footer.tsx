@@ -76,7 +76,7 @@ export const Footer = () => {
 
             {/* Mail */}
             <a
-              href="mailto:devzensoftware@gmail.com"
+              href="mailto:info@devzenenterprises.com"
               aria-label="Email DevZen"
               className="w-9 h-9 rounded-lg bg-muted hover:bg-muted/80 flex items-center justify-center transition"
             >

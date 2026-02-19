@@ -16,7 +16,7 @@ export const Contact = () => {
     // Handle form submission
     console.log("Form submitted:", formData);
     //open mail
-    const mail = `mailto:devzensoftware@gmail.com?subject=Contact%20Form&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\nMessage: ${formData.message}`)}`;
+    const mail = `mailto:info@devzenenterprises.com?subject=Contact%20Form&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\nMessage: ${formData.message}`)}`;
     window.location.href = mail;
   };
 

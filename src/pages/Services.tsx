@@ -167,7 +167,7 @@ const Services = () => {
             <button
               onClick={() =>
                 (window.location.href =
-                  "mailto:devzensoftware@gmail.com?subject=Consultation%20Request")
+                  "mailto:info@devzenenterprises.com?subject=Consultation%20Request")
               }
               className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-slate-100 transition-colors"
             >

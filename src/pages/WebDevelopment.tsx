@@ -87,7 +87,7 @@ const WebDevelopment = () => {
             className="flex justify-center gap-4"
           >
  <a 
-              href="mailto:devzensoftware@gmail.com?subject=Web Development Project Inquiry&body=Hello Devzen Team,%0D%0A%0D%0AI am interested in your web development services.%0D%0A%0D%0APlease contact me to discuss my project requirements.%0D%0A%0D%0AThank you!"
+              href="mailto:info@devzenenterprises.com?subject=Web Development Project Inquiry&body=Hello Devzen Team,%0D%0A%0D%0AI am interested in your web development services.%0D%0A%0D%0APlease contact me to discuss my project requirements.%0D%0A%0D%0AThank you!"
               className="px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold rounded-xl hover:opacity-90 transition-opacity flex items-center gap-2"
             >
             Start Your Project <ArrowRight className="w-5 h-5" />
@@ -265,7 +265,7 @@ const WebDevelopment = () => {
               Let's create a stunning website that drives results for your business.
             </p>
  <a 
-              href="mailto:devzensoftware@gmail.com?subject=Free Quote Request - Web Development&body=Hello Devzen Team,%0D%0A%0D%0AI would like to request a free quote for web development services.%0D%0A%0D%0AProject Details:%0D%0A- Type of website:%0D%0A- Key features needed:%0D%0A- Timeline:%0D%0A- Budget range:%0D%0A%0D%0APlease contact me to discuss further.%0D%0A%0D%0AThank you!"
+              href="mailto:info@devzenenterprises.com?subject=Free Quote Request - Web Development&body=Hello Devzen Team,%0D%0A%0D%0AI would like to request a free quote for web development services.%0D%0A%0D%0AProject Details:%0D%0A- Type of website:%0D%0A- Key features needed:%0D%0A- Timeline:%0D%0A- Budget range:%0D%0A%0D%0APlease contact me to discuss further.%0D%0A%0D%0AThank you!"
               className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-slate-100 transition-colors inline-block"
             >            Get Free Quote
             </a>

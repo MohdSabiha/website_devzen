@@ -230,7 +230,7 @@ const Portfolio = () => {
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a 
-                href="mailto:devzensoftware@gmail.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new project.%0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
+                href="mailto:info@devzenenterprises.com?subject=New Project Inquiry&body=Hi DevZen Team,%0D%0A%0D%0AI'm interested in discussing a new project.%0D%0A%0D%0APlease get in touch at your earliest convenience.%0D%0A%0D%0AThank you!"
                 className="px-8 py-4 bg-white text-emerald-600 font-semibold rounded-xl hover:bg-slate-100 transition-colors inline-flex items-center gap-2"
               >
                 Contact Us <ArrowRight className="w-5 h-5" />
